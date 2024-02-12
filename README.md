@@ -2,12 +2,12 @@
 
 Sysot link:
 
-    https://sysout.ru/mikroservisy-eureka-i-client-side-load-balancing/
-    https://github.com/myluckagain/sysout/tree/master/cloud1
+    https://sysout.ru/spring-cloud-api-gateway/
+    https://github.com/myluckagain/sysout/tree/master/cloud2
 
 GitHub links:
 
-    https://github.com/AnatolSalau/SpringEurekaClientBalance
+    https://github.com/AnatolSalau/SpringEurekaApiGataway
 
 ### ZOO microservice
 Client(User) get any animal
