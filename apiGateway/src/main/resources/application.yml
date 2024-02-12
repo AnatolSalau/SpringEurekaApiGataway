@@ -1,0 +1,31 @@
+server:
+   port: 8080
+spring:
+   application:
+      name: proxy
+#   cloud:
+#      gateway:
+#         routes:
+#            - id: random_animal_route
+#              uri: lb://random-animal
+#              predicates:
+#                 - Path=/random-animal/**
+#              filters:
+#                 - StripPrefix=1
+#            - id: zoo_route
+#              uri: lb://zoo
+#              predicates:
+#                 - Path=/zoo/**
+#              filters:
+#                 - StripPrefix=1
+eureka:
+   client:
+      service-url:
+         defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+#      healthcheck:
+#         enabled: true
+   instance:
+      preferIpAddress: true
+#logging:
+#   level:
+#      org.springframework: debug
